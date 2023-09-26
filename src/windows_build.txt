@@ -1,0 +1,10 @@
+Build for Server:
+g++ src/Server/*.cpp src/Server/function_Windows/*.cpp src/mainserver.cpp src/Utils/*.cpp src/Message/*.cpp -o bin/server.exe  -lgdiplus -lgdi32 -lws2_32
+Build and run for Server:
+g++ src/Server/*.cpp src/Server/function_Windows/*.cpp src/mainserver.cpp src/Utils/*.cpp src/Message/*.cpp -o bin/server.exe  -lgdiplus -lgdi32 -lws2_32; bin/server.exe
+
+
+Build for Client:
+g++ src/BasicUI/*.cpp src/Client/*.cpp src/mainclient.cpp src/Utils/*.cpp src/Message/*.cpp -o bin/client.exe -lws2_32
+Build and run for Client:
+g++ src/BasicUI/*.cpp src/Client/*.cpp src/mainclient.cpp src/Utils/*.cpp src/Message/*.cpp -o bin/client.exe -lws2_32; bin/client.exe
