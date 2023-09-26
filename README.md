@@ -1,6 +1,9 @@
-# Computer Networking project - Socket (C++).
-# Team members:
-- 21120007 - Nguyễn Thanh Hùng Cường
-- 21120015 - Trần Nam Khánh
-- 21120111 - Phan Lê Đắc Phú
+# Update Computer Networking project to remote control computer.
+Phan Lê Đắc Phú
 
+# Current Function:
+1. List app
+2. List process
+3. Screenshot
+4. Keylog
+5. Directory Tree
